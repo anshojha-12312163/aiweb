@@ -1,0 +1,47 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/framerusercontent.com/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/fonts.gstatic.com/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ],
+  "rewrites": [
+    { "source": "/services/ai-strategy", "destination": "/services/ai-strategy/index.html" },
+    { "source": "/services/agent-builds", "destination": "/services/agent-builds/index.html" },
+    { "source": "/services/ai-training", "destination": "/services/ai-training/index.html" },
+    { "source": "/services/voice-agents", "destination": "/services/voice-agents/index.html" },
+    { "source": "/services/workflow-automation", "destination": "/services/workflow-automation/index.html" },
+    { "source": "/agents/document-agent", "destination": "/agents/document-agent/index.html" },
+    { "source": "/agents/screen-agent", "destination": "/agents/screen-agent/index.html" },
+    { "source": "/agents/support-agent", "destination": "/agents/support-agent/index.html" },
+    { "source": "/agents/sales-agent", "destination": "/agents/sales-agent/index.html" },
+    { "source": "/agents/finance-agent", "destination": "/agents/finance-agent/index.html" },
+    { "source": "/agents/voice-agent", "destination": "/agents/voice-agent/index.html" },
+    { "source": "/agents/research-agent", "destination": "/agents/research-agent/index.html" },
+    { "source": "/work/brightpath-realty", "destination": "/work/brightpath-realty/index.html" },
+    { "source": "/work/ledgerly", "destination": "/work/ledgerly/index.html" },
+    { "source": "/work/northwind-dental", "destination": "/work/northwind-dental/index.html" },
+    { "source": "/work/oakline-home", "destination": "/work/oakline-home/index.html" },
+    { "source": "/work/vantage-legal", "destination": "/work/vantage-legal/index.html" },
+    { "source": "/journal/agents-need-guardrails", "destination": "/journal/agents-need-guardrails/index.html" },
+    { "source": "/journal/voice-agents-that-people-like", "destination": "/journal/voice-agents-that-people-like/index.html" },
+    { "source": "/journal/where-to-start-with-ai-agents", "destination": "/journal/where-to-start-with-ai-agents/index.html" }
+  ]
+}
+
