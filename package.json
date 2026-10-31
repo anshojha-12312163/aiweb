@@ -1,9 +1,5 @@
 {
   "name": "sightwork-agent-studio",
   "version": "1.0.0",
-  "description": "Sightwork Agent Studio",
-  "scripts": {
-    "build": "echo 'Static site ready'",
-    "start": "node server.js"
-  }
+  "description": "Sightwork Agent Studio"
 }
