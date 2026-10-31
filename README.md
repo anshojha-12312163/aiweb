@@ -1,6 +1,6 @@
-# Sightwork — Agent Studio (Website Clone)
+# Sightwork — Agent Studio 
 
-Complete, pixel-perfect clone of [https://angelic-whoever-656956.framer.app/](https://angelic-whoever-656956.framer.app/).
+
 
 This clone includes:
 - **All 32 Pages**: Home, Services, Work, Agents, Process, Pricing, About, Journal, Contact, Book, Privacy, Terms, Cookies, 404, plus all sub-pages for individual case studies, agent profiles, journal articles, and service offerings.
