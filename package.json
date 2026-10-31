@@ -1,20 +1,9 @@
 {
-  "name": "sightwork-agent-studio-clone",
+  "name": "sightwork-agent-studio",
   "version": "1.0.0",
-  "description": "Pixel-perfect clone of Sightwork Agent Studio (https://angelic-whoever-656956.framer.app/)",
-  "main": "server.js",
+  "description": "Sightwork Agent Studio",
   "scripts": {
-    "start": "node server.js",
-    "serve": "node server.js",
-    "serve:py": "python server.py"
-  },
-  "keywords": [
-    "framer",
-    "clone",
-    "website",
-    "ai-agency"
-  ],
-  "author": "",
-  "license": "ISC"
+    "build": "echo 'Static site ready'",
+    "start": "node server.js"
+  }
 }
-

@@ -1,11 +1,4 @@
 node_modules
 scripts
-server.js
-server.py
-inspect_nav.py
-*.py
 .git
 .vercel
-README.md
-package-lock.json
-
